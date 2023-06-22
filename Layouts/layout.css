@@ -1,0 +1,185 @@
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  margin-top: 5%;
+  margin-left: 20%;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.child-one {
+  display: inline-block;
+  background-color: #4530e5;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  height: 450px;
+  width: 350px;
+  border-radius: 5%;
+  color: white;
+
+  text-align: center;
+}
+
+.child-one h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.child-one h4 {
+  text-align: center;
+  color: #cac0ff;
+  text-transform: capitalize;
+  margin-top: 14px;
+}
+
+.circle {
+  color: #cac0ff;
+  margin-top: 28px;
+  width: 65%;
+  margin-left: 19%;
+  padding: 10%;
+  background-image: linear-gradient(#4a23cc, #4530e5);
+  border-radius: 100%;
+}
+
+.circle .first-num {
+  color: white;
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.child-two {
+  display: inline-block;
+  background-color: white;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  height: 450px;
+  width: 350px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #f4fbfb;
+
+}
+
+.child-one p {
+  text-align: center;
+  color: #cac0ff;
+  padding: 10px 25px;
+  margin: 0 17px;
+
+}
+
+.child-one p::first-letter {
+  text-transform: capitalize;
+
+}
+
+
+
+
+
+
+.child-two h4 {
+  margin-top: 25px;
+  margin-left: 18px;
+  font-weight: bold;
+  color: #303B59;
+}
+
+.child-two h4::first-letter {
+  text-transform: capitalize;
+
+}
+
+.child-two div {
+  padding: 15px;
+  padding-left: 40px;
+  margin: 20px;
+  border-radius: 13px;
+  font-weight: bold;
+}
+
+.child-two .first {
+  color: #303B59;
+  font-weight: bold;
+  float: right;
+  margin-right: 5px;
+}
+
+.child-two .second {
+  color: #cac0ff;
+  float: right
+}
+
+.btn {
+  background-color: #303B59;
+  color: white;
+  align-items: center;
+  margin-left: 32px;
+  padding: 8px;
+  width: 85%;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.btn::first-letter {
+  text-transform: capitalize;
+}
+
+
+.red {
+  background-color: #fffbf0;
+  color: #ff7775;
+  position: relative;
+}
+
+.red::before {
+  content: url(../img/icon-reaction.svg);
+  position: absolute;
+  left: 10px;
+  top: 18px;
+}
+
+.orange {
+  background-color: #fff9f9;
+  color: #ffbf47;
+  position: relative;
+
+}
+
+.orange::before {
+  content: url(../img/icon-memory.svg);
+  position: absolute;
+  left: 10px;
+  top: 18px;
+}
+
+
+.green {
+  background-color: #f2fbfa;
+  color: #32b695;
+  position: relative;
+
+
+}
+
+.green::before {
+  content: url(../img/icon-verbal.svg);
+  position: absolute;
+  left: 10px;
+  top: 18px;
+
+}
+
+.blue {
+  background-color: #f3fafb;
+  color: #1125d6;
+  position: relative;
+
+}
+
+.blue::before {
+  content: url(../img/icon-visual.svg);
+  position: absolute;
+  left: 10px;
+  top: 18px;
+}
